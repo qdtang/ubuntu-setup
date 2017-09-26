@@ -48,4 +48,4 @@ ${name}: ${name}.cpp
 
 clean:
 	\$(RM) ${name} 
-
+EOF
