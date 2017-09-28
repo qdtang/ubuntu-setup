@@ -33,7 +33,7 @@ EOF
 
 #Makefile
 cat >  Makefile << EOF
-override CXXFLAGS += -Wall -Werror -std=c++11
+override CXXFLAGS += -Wall -Werror -std=c++17
 .PHONY: clean debug release
 
 release: CXXFLAGS += -O2
