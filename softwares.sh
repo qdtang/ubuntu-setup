@@ -16,6 +16,9 @@ apt-get install git
 apt-get install zeal
 apt-get install code
 apt-get install valgrind
+
+# qt5 and qtcreator
+apt-get install qt5-default qttools5-dev-tools
 apt-get install qtcreator
 
 # install pip
