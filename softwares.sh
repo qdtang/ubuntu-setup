@@ -14,7 +14,7 @@ apt-get install g++
 apt-get install libboost-all-dev
 apt-get install git
 apt-get install zeal
-apt-get install code
+#apt-get install code
 apt-get install valgrind
 
 # qt5 and qtcreator
