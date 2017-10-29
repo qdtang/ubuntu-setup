@@ -7,7 +7,7 @@
 apt-get update
 apt-get upgrade 
 
-apt-get install build-essentail
+apt-get install build-essential
 apt-get install terminator
 apt-get install vim
 apt-get install g++
