@@ -36,16 +36,25 @@ cat >  Makefile << EOF
 override CXXFLAGS += -Wall -Werror -std=c++17
 .PHONY: clean debug release
 
+define run
+ln -s -f \$< ${name}
+@echo ======================OUTPUT======================
+@./${name}
+endef
+
 release: CXXFLAGS += -O2 -s
-debug: CXXFLAGS += -g
+debug: CXXFLAGS += -g -DDEBUG
 
-debug release: ${name}
+debug: ${name}-g
+	\$(run)
+	
+release: ${name}-o
+	\$(run)
 
-${name}: ${name}.cpp
+
+${name}-g ${name}-o: ${name}.cpp
 	\$(CXX) \$(CXXFLAGS) \$< -o \$@
-	@echo ======================OUTPUT======================
-	@./\$@
 
 clean:
-	\$(RM) ${name} 
+	\$(RM) ${name} ${name}-*
 EOF
