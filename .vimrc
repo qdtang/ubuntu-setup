@@ -24,6 +24,7 @@ set shiftwidth=4
 "search
 set hlsearch
 set incsearch
+set ignorecase
 
 "mouse
 set mouse=a
