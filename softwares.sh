@@ -8,7 +8,9 @@ apt-get install vim
 apt-get install g++
 apt-get install libboost-all-dev
 apt-get install git
+apt-get install giggle
 apt-get install terminator
+apt-get install ddd
 
 # install vs code (better from official website)
 #apt-get install code
