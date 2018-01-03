@@ -31,3 +31,6 @@ set mouse=a
 
 "highlight match brackets
 set showmatch
+
+"set colorscheme
+colorscheme desert

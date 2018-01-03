@@ -5,6 +5,7 @@ apt-get upgrade
 
 apt-get install build-essential
 apt-get install vim
+apt-get install vim-gtk3
 apt-get install g++
 apt-get install libboost-all-dev
 apt-get install git
