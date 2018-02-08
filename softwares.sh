@@ -9,13 +9,20 @@ apt-get install vim-gtk3
 apt-get install g++
 apt-get install libboost-all-dev
 apt-get install git
-apt-get install giggle
 apt-get install terminator
 apt-get install ddd
+apt-get install flex
+apt-get install bison
+apt-get install cmake
 
-# install vs code (better from official website)
-#apt-get install code
+# install from official websites
+#vs code
+#SmartGit
+#anaconda3
 
+##################################################################
+#OPTIONAL
+##################################################################
 # install vm tools if automatic fullscreen does not work well
 #apt-get install open-vm-tools-desktop
 
@@ -32,6 +39,4 @@ apt-get install ddd
 #pip install --upgrade pip
 #pip install --upgrade virtualenv
 
-#apt-get install spyder
-#apt-get install spyder3
 #apt-get install octave
