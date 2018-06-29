@@ -33,6 +33,7 @@ apt-get install cmake
 # qt5 and qtcreator
 #apt-get install qt5-default qttools5-dev-tools
 #apt-get install qtcreator
+#download linux manual for QtCreator Help from http://trunk.shinnok.com/qt/manpages.qch.gz
 
 # install pip
 #apt-get install python-pip python-dev
