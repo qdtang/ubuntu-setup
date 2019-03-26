@@ -47,3 +47,5 @@ wget https://raw.githubusercontent.com/qdtang/ubuntu-setup/master/.vimrc
 
 # make tab auto-completion case-insensitive
 echo "set completion-ignore-case on" >> /etc/inputrc
+# disable beep on terminal
+echo "set bell-style none" >> /etc/inputrc

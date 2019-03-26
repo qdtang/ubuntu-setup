@@ -34,3 +34,6 @@ set showmatch
 
 "set colorscheme
 colorscheme desert
+
+"no beep
+set vb
