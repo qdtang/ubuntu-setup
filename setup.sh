@@ -11,6 +11,7 @@ apt-get --yes install build-essential
 apt-get --yes install vim
 #apt-get --yes install vim-gtk3
 apt-get --yes install libboost-all-dev
+apt-get --yes install libgtest-dev
 apt-get --yes install git
 apt-get --yes install terminator
 apt-get --yes install cmake
@@ -20,6 +21,7 @@ apt-get --yes install gnome-shell-extensions gnome-shell-extension-dash-to-panel
 apt-get --yes install ubuntu-restricted-extras
 #apt-get --yes install ddd
 #apt-get --yes install qt5-default qttools5-dev-tools
+#apt-get --yes install qtcreator
 
 ## download linux manual for QtCreator Help from http://trunk.shinnok.com/qt/manpages.qch.gz
 
