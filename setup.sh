@@ -16,7 +16,6 @@ apt-get --yes install git
 apt-get --yes install terminator
 apt-get --yes install cmake
 apt-get --yes install clang clang-format clang-tidy
-apt-get --yes install cppcheck
 apt-get --yes install valgrind
 apt-get --yes install zeal
 apt-get --yes install gnome-shell-extensions gnome-shell-extension-dash-to-panel gnome-tweaks
